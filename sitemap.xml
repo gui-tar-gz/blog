@@ -42,6 +42,11 @@
   </url>
   
   <url>
+    <loc>https://example.com/posts/202104092211/</loc>
+    <lastmod>2021-04-09</lastmod>
+  </url>
+  
+  <url>
     <loc>https://example.com/tags/</loc>
     <lastmod>2021-04-09</lastmod>
   </url>

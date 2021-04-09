@@ -5,12 +5,22 @@
 	
 	<link href="https://example.com/feed/feed.xml" rel="self"/>
 	<link href="https://example.com/"/>
-	<updated>2018-09-30T00:00:00Z</updated>
+	<updated>2021-04-09T20:12:03Z</updated>
 	<id>https://example.com/</id>
 	<author>
 		<name>Your Name Here</name>
 		<email>youremailaddress@example.com</email>
 	</author>
+	
+	<entry>
+		<title></title>
+		<link href="https://example.com/posts/202104092211/"/>
+		<updated>2021-04-09T20:12:03Z</updated>
+		<id>https://example.com/posts/202104092211/</id>
+		<content type="html">&lt;p&gt;#test post&lt;/p&gt;
+&lt;p&gt;test post creation&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>This is my fourth post.</title>

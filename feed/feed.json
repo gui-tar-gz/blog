@@ -10,6 +10,12 @@
     "url": "https://example.com/about-me/"
   },
   "items": [{
+      "id": "https://example.com/posts/202104092211/",
+      "url": "https://example.com/posts/202104092211/",
+      "title": "",
+      "content_html": "<p>#test post</p>\n<p>test post creation</p>\n",
+      "date_published": "2021-04-09T20:12:03Z"
+    },{
       "id": "https://example.com/posts/fourthpost/",
       "url": "https://example.com/posts/fourthpost/",
       "title": "This is my fourth post.",
