@@ -1,10 +1,14 @@
 ---
-title: Home
-description: Homepage description
-layout: layouts/base.njk
-templateClass: tpl-home
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Home
+  order: 1
 ---
+{% set maxPosts = collections.posts.length | min(3) %}
+<h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1>
 
-<h1>Github pages with Eleventy setup</h1>
-<h2>Tutorial soon...stay tuned !</h2>
-<a href="https://guitargz.github.io">Alexander Gruzdev after name change</a>
+{% set postslist = collections.posts | head(-3) %}
+{% set postslistCounter = collections.posts | length %}
+{% include "postslist.njk" %}
+
+<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
