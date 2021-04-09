@@ -1,5 +1,5 @@
 {
-    "name": "gui-tar-gz.github.io",
+    "name": "guitargz.github.io",
     "version": "0.0.1",
     "description": "",
     "main": "index.js",
@@ -9,15 +9,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/gui-tar-gz/gui-tar-gz.github.io.git"
+        "url": "git+https://github.com/guitargz/guitargz.github.io.git"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/gui-tar-gz/gui-tar-gz.github.io/issues"
+        "url": "https://github.com/guitargz/guitargz.github.io/issues"
     },
-    "homepage": "https://github.com/gui-tar-gz/gui-tar-gz.github.io#readme",
+    "homepage": "https://github.com/guitargz/guitargz.github.io#readme",
     "devDependencies": {
         "@11ty/eleventy": "^0.12.1"
     }
