@@ -126,8 +126,8 @@ module.exports = function(eleventyConfig) {
     // These are all optional (defaults are shown):
     dir: {
       input: "src",
-      includes: "src/_includes",
-      data: "src/_data",
+      includes: "_includes",
+      data: "_data",
       output: "dist"
     }
   };
