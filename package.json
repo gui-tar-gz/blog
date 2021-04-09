@@ -1,0 +1,24 @@
+{
+    "name": "gui-tar-gz.github.io",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "serve": "eleventy --serve",
+      "build": "eleventy"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gui-tar-gz/gui-tar-gz.github.io.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/gui-tar-gz/gui-tar-gz.github.io/issues"
+    },
+    "homepage": "https://github.com/gui-tar-gz/gui-tar-gz.github.io#readme",
+    "devDependencies": {
+      "@11ty/eleventy": "^0.11.0"
+    }
+  }
