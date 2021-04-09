@@ -10,10 +10,7 @@
   <link rel="icon" href="/assets/images/favicon.ico" type="image/png" />
   <link rel="apple-touch-icon" href="/assets/images/favicon-192x192.png" type="image/png" />
 </head>
-<body  class="tpl-home">
-  <main id="main-content" class="main marg-t-xs">
-<h1>Github pages with Eleventy setup</h1>
-<h2>Tutorial soon...stay tuned !</h2>
-<a href="https://gui-tar-gz.github.io">Alexander Gruzdev!!!</a></main>
+<body {% if templateClass %} class="{{ templateClass }}"{% endif %}>
+  <main id="main-content" class="main marg-t-xs">{{ content | safe }}</main>
 </body>
 </html>
