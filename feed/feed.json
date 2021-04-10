@@ -12,8 +12,8 @@
   "items": [{
       "id": "https://guitargz.github.io/posts/202104092211%20The%20First%20Post/",
       "url": "https://guitargz.github.io/posts/202104092211%20The%20First%20Post/",
-      "title": "First post - Hiya!.",
-      "content_html": "<p>Hello World!</p>\n<p>My name is Alex and this is my blog where I will write about the stuff I learn every day.<br>\nMainly this would be about programming and IT, but who knows - maybe some music or cats are also here eventually!<br>\nI am currently learning Eleventy which is the platform for this blog <a href=\"https://github.com/11ty/eleventy-base-blog\">(the eleventy-base-blog repo)</a></p>\n",
+      "title": "First post - Hiya!",
+      "content_html": "<p>Hello World!</p>\n<p>My name is Alex and this is my blog where I will write about the stuff I learn every day.<br>\nMainly this would be about programming and IT, but who knows - maybe some music or cats are also here eventually!<br>\nI am currently learning Eleventy which is the platform for this blog <a href=\"https://github.com/11ty/eleventy-base-blog\">(the eleventy-base-blog repo).</a></p>\n",
       "date_published": "2021-04-09T00:00:00Z"
     }
   ]

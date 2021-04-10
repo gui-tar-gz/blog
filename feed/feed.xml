@@ -13,14 +13,14 @@
 	</author>
 	
 	<entry>
-		<title>First post - Hiya!.</title>
+		<title>First post - Hiya!</title>
 		<link href="https://guitargz.github.io/posts/202104092211%20The%20First%20Post/"/>
 		<updated>2021-04-09T00:00:00Z</updated>
 		<id>https://guitargz.github.io/posts/202104092211%20The%20First%20Post/</id>
 		<content type="html">&lt;p&gt;Hello World!&lt;/p&gt;
 &lt;p&gt;My name is Alex and this is my blog where I will write about the stuff I learn every day.&lt;br /&gt;
 Mainly this would be about programming and IT, but who knows - maybe some music or cats are also here eventually!&lt;br /&gt;
-I am currently learning Eleventy which is the platform for this blog &lt;a href=&quot;https://github.com/11ty/eleventy-base-blog&quot;&gt;(the eleventy-base-blog repo)&lt;/a&gt;&lt;/p&gt;
+I am currently learning Eleventy which is the platform for this blog &lt;a href=&quot;https://github.com/11ty/eleventy-base-blog&quot;&gt;(the eleventy-base-blog repo).&lt;/a&gt;&lt;/p&gt;
 </content>
 	</entry>
 </feed>
