@@ -1,21 +1,21 @@
 {
-  "title": "Your Blog Name",
-  "url": "https://example.com/",
+  "title": "Missing the forest for the trees",
+  "url": "https://guitargz.github.io/",
   "language": "en",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "I am writing of stuff I learn every day",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "I am writing of stuff I learn every day",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "https://guitargz.github.io/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "https://guitargz.github.io/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "name": "Alex",
+    "email": "alexguitargz@gmail.com",
+    "url": "https://guitargz.github.io/about-me/"
   }
 }
