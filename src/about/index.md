@@ -1,10 +1,10 @@
 ---
 layout: layouts/post.njk
-title: About Me
+title: About
 templateClass: tmpl-post
 eleventyNavigation:
-  key: About Me
+  key: About
   order: 3
 ---
 
-I am a person that writes stuff.
+Hi! I'm Alex. This blog is based on <a href="{{ 'https://www.11ty.dev/' | url }}">Eleventy.</a>.
