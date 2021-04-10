@@ -5,12 +5,21 @@
 	
 	<link href="https://guitargz.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://guitargz.github.io/"/>
-	<updated>2021-04-09T00:00:00Z</updated>
+	<updated>2021-04-10T00:00:00Z</updated>
 	<id>https://guitargz.github.io/</id>
 	<author>
-		<name>Alex</name>
+		<name>guitargz</name>
 		<email>alexguitargz@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>New theme added</title>
+		<link href="https://guitargz.github.io/posts/202104101713-new-theme/"/>
+		<updated>2021-04-10T00:00:00Z</updated>
+		<id>https://guitargz.github.io/posts/202104101713-new-theme/</id>
+		<content type="html">&lt;p&gt;Still learning Eleventy, quite excited about the possibilities and simplicity. Found and applied a cool minimal &lt;a href=&quot;https://github.com/chesterhow/tale/&quot;&gt;Tale&lt;/a&gt; theme.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>First post - Hiya!</title>

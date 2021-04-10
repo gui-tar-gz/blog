@@ -6,10 +6,16 @@
   "feed_url": "https://guitargz.github.io/feed/feed.json",
   "description": "I am writing of stuff I learn every day",
   "author": {
-    "name": "Alex",
+    "name": "guitargz",
     "url": "https://guitargz.github.io/about-me/"
   },
   "items": [{
+      "id": "https://guitargz.github.io/posts/202104101713-new-theme/",
+      "url": "https://guitargz.github.io/posts/202104101713-new-theme/",
+      "title": "New theme added",
+      "content_html": "<p>Still learning Eleventy, quite excited about the possibilities and simplicity. Found and applied a cool minimal <a href=\"https://github.com/chesterhow/tale/\">Tale</a> theme.</p>\n",
+      "date_published": "2021-04-10T00:00:00Z"
+    },{
       "id": "https://guitargz.github.io/posts/202104092211%20The%20First%20Post/",
       "url": "https://guitargz.github.io/posts/202104092211%20The%20First%20Post/",
       "title": "First post - Hiya!",
