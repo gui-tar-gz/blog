@@ -15,4 +15,4 @@ Training
 GPT
 StyleGAN
 
-Still learning Eleventy, quite excited about the possibilities and simplicity. Found and applied a cool minimal <a href="{{ 'https://github.com/chesterhow/tale/' | url }}">Tale</a> theme.
+Still learning Eleventy, quite excited about the possibilities and simplicity. Found and applied a cool minimal <a href="{{ 'https://github.com/chesterhow/tale/' | url }}">Tale</a> theme. 
