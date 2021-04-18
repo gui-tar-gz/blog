@@ -1,2 +1,2 @@
 # Blog
-Blog of Alexander Gruzdev
+Blog of guitargz
