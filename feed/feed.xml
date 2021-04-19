@@ -33,11 +33,14 @@ The name of the entity/channel (Aida Enelpi) is a bad neural-oriented pun mostly
 &lt;br /&gt;
 So I took the beautiful &lt;a href=&quot;https://github.com/ak9250/stylegan-art&quot;&gt;Stylegan-art repository&lt;/a&gt; as the basis for my training. My &lt;a href=&quot;https://www.kaggle.com/guitargz/stylegan-social/edit/run/58632173&quot;&gt;Kaggle &lt;/a&gt; also used the model trained by StyleGAN-art as the initial point for transfer learning. I chose Kaggle over Colab because normally you get better GPUs in the free version. &lt;br /&gt;
 &lt;br /&gt;
-I took the available &lt;a href=&quot;https://www.kaggle.com/prithvijaunjale/instagram-images-with-captions&quot;&gt;Instagram dataset&lt;/a&gt; and reduced it to 7000 512x512 images not to go out of memory during the training. \&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/vuJmqTr.gif&quot; alt=&quot;Transfer learning&quot; title=&quot;Transfer learning&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;I think the quality of training has suffered due to a lot of different image types (selfies, full persons, cats, food, etc.) in the dataset. I plan to create more specific datasets (for example, only selfies) and transfer learn based on them. \&lt;/p&gt;
-&lt;p&gt;The standard &lt;a href=&quot;https://github.com/NVlabs/stylegan&quot;&gt;StyleGAN&lt;/a&gt;  would not support running on CPU even in the generator mode where it does not need too much PC beef. So I found this little &lt;a href=&quot;https://github.com/huaji0353/styleGAN_CPU&quot;&gt;patch&lt;/a&gt; which allowed running the generator on a small machine without a GPU.&lt;br /&gt;
+I took the available &lt;a href=&quot;https://www.kaggle.com/prithvijaunjale/instagram-images-with-captions&quot;&gt;Instagram dataset&lt;/a&gt; and reduced it to 7000 512x512 images not to go out of memory during the training.&lt;br /&gt;
 &lt;br /&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/vuJmqTr.gif&quot; alt=&quot;Transfer learning&quot; title=&quot;Transfer learning&quot; /&gt;&lt;/p&gt;
+&lt;br /&gt;
+I think the quality of training has suffered due to a lot of different image types (selfies, full persons, cats, food, etc.) in the dataset. I plan to create more specific datasets (for example, only selfies) and transfer learn based on them.
+&lt;br /&gt;&lt;br /&gt;
+The standard &lt;a href=&quot;https://github.com/NVlabs/stylegan&quot;&gt;StyleGAN&lt;/a&gt;  would not support running on CPU even in the generator mode where it does not need too much PC beef. So I found this little &lt;a href=&quot;https://github.com/huaji0353/styleGAN_CPU&quot;&gt;patch&lt;/a&gt; which allowed running the generator on a small machine without a GPU. 
+&lt;br /&gt; &lt;br /&gt;
 &lt;h1 id=&quot;gpt-2&quot;&gt;GPT-2 &lt;a class=&quot;direct-link&quot; href=&quot;https://guitargz.github.io/posts/202104151136-neural-network-telegram-bot/#gpt-2&quot;&gt;#&lt;/a&gt;&lt;/h1&gt;
 &lt;p&gt;I was going to use the biggest available GPT-2 XL (with 1.5 billion parameters) from &lt;a href=&quot;https://huggingface.co/transformers/&quot;&gt;Huggingface&lt;/a&gt;. However, when I made my first tests on the smallest GPT-2 with 134 million parameters I immediately liked the quality of the generated texts. I even ended up not finetuning the pretrained model further (however, I might explore this way in the future).&lt;br /&gt;
 &lt;br /&gt;

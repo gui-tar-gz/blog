@@ -71,11 +71,14 @@ The name of the entity/channel (Aida Enelpi) is a bad neural-oriented pun mostly
 <br>
 So I took the beautiful <a href="https://github.com/ak9250/stylegan-art">Stylegan-art repository</a> as the basis for my training. My <a href="https://www.kaggle.com/guitargz/stylegan-social/edit/run/58632173">Kaggle </a> also used the model trained by StyleGAN-art as the initial point for transfer learning. I chose Kaggle over Colab because normally you get better GPUs in the free version. <br>
 <br>
-I took the available <a href="https://www.kaggle.com/prithvijaunjale/instagram-images-with-captions">Instagram dataset</a> and reduced it to 7000 512x512 images not to go out of memory during the training. \</p>
-<p><img src="https://i.imgur.com/vuJmqTr.gif" alt="Transfer learning" title="Transfer learning"></p>
-<p>I think the quality of training has suffered due to a lot of different image types (selfies, full persons, cats, food, etc.) in the dataset. I plan to create more specific datasets (for example, only selfies) and transfer learn based on them. \</p>
-<p>The standard <a href="https://github.com/NVlabs/stylegan">StyleGAN</a>  would not support running on CPU even in the generator mode where it does not need too much PC beef. So I found this little <a href="https://github.com/huaji0353/styleGAN_CPU">patch</a> which allowed running the generator on a small machine without a GPU.<br>
+I took the available <a href="https://www.kaggle.com/prithvijaunjale/instagram-images-with-captions">Instagram dataset</a> and reduced it to 7000 512x512 images not to go out of memory during the training.<br>
 <br /> <br /></p>
+<p><img src="https://i.imgur.com/vuJmqTr.gif" alt="Transfer learning" title="Transfer learning"></p>
+<br />
+I think the quality of training has suffered due to a lot of different image types (selfies, full persons, cats, food, etc.) in the dataset. I plan to create more specific datasets (for example, only selfies) and transfer learn based on them.
+<br /><br />
+The standard <a href="https://github.com/NVlabs/stylegan">StyleGAN</a>  would not support running on CPU even in the generator mode where it does not need too much PC beef. So I found this little <a href="https://github.com/huaji0353/styleGAN_CPU">patch</a> which allowed running the generator on a small machine without a GPU. 
+<br /> <br />
 <h1 id="gpt-2">GPT-2 <a class="direct-link" href="#gpt-2">#</a></h1>
 <p>I was going to use the biggest available GPT-2 XL (with 1.5 billion parameters) from <a href="https://huggingface.co/transformers/">Huggingface</a>. However, when I made my first tests on the smallest GPT-2 with 134 million parameters I immediately liked the quality of the generated texts. I even ended up not finetuning the pretrained model further (however, I might explore this way in the future).<br>
 <br>
