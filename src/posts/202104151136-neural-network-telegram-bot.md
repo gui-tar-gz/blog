@@ -26,12 +26,14 @@ I really liked the <a href="{{ 'https://colab.research.google.com/github/tg-bomz
 \
 So I took the beautiful <a href="{{ 'https://github.com/ak9250/stylegan-art' | url }}">Stylegan-art repository</a> as the basis for my training. My <a href="{{ 'https://www.kaggle.com/guitargz/stylegan-social/edit/run/58632173' | url }}">Kaggle </a> also used the model trained by StyleGAN-art as the initial point for transfer learning. I chose Kaggle over Colab because normally you get better GPUs in the free version. \
 \
-I took the available <a href="{{ 'https://www.kaggle.com/prithvijaunjale/instagram-images-with-captions' | url }}">Instagram dataset</a> and reduced it to 7000 512x512 images not to go out of memory during the training. \
+I took the available <a href="{{ 'https://www.kaggle.com/prithvijaunjale/instagram-images-with-captions' | url }}">Instagram dataset</a> and reduced it to 7000 512x512 images not to go out of memory during the training. 
+<br /> <br />
 
 ![Transfer learning](https://i.imgur.com/vuJmqTr.gif "Transfer learning")
 
-I think the quality of training has suffered due to a lot of different image types (selfies, full persons, cats, food, etc.) in the dataset. I plan to create more specific datasets (for example, only selfies) and transfer learn based on them. \ 
-
+<br />
+I think the quality of training has suffered due to a lot of different image types (selfies, full persons, cats, food, etc.) in the dataset. I plan to create more specific datasets (for example, only selfies) and transfer learn based on them.
+<br /><br />
 The standard <a href="{{ 'https://github.com/NVlabs/stylegan' | url }}">StyleGAN</a>  would not support running on CPU even in the generator mode where it does not need too much PC beef. So I found this little <a href="{{ 'https://github.com/huaji0353/styleGAN_CPU' | url }}">patch</a> which allowed running the generator on a small machine without a GPU. 
 <br /> <br />
 
