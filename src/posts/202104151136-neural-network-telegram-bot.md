@@ -38,7 +38,7 @@ The standard <a href="{{ 'https://github.com/NVlabs/stylegan' | url }}">StyleGAN
 <br /> <br />
 
 ## GPT-2
-I was going to use the biggest available GPT-2 XL (with 1.5 billion parameters) from <a href="{{ 'https://huggingface.co/transformers/' | url }}">Huggingface</a>. However, when I made my first tests on the smallest GPT-2 with 134 million parameters I immediately liked the quality of the generated texts. I even ended up not finetuning the pretrained model further (however, I might explore this way in the future).\
+I was going to use the biggest available GPT-2 XL (with 1.5 billion parameters) from <a href="{{ 'https://huggingface.co/transformers/' | url }}">Huggingface</a>. However, when I made my first tests on the smallest GPT-2 with 134 million parameters I immediately liked the quality of the generated texts. I even ended up not fine-tuning the pretrained model further (however, I might explore this way in the future).\
 \
 After all, I wanted to match the average beauty blogger's post intelligence level, so no overkill was needed here. Slightly chaotic babble of the smallest GPT-2 suited the goal just fine.\
 \
@@ -58,7 +58,7 @@ The bot is written in Python using the amazing <a href="{{ 'https://github.com/a
 \
 The main bot application has been containerized with <a href="{{ 'https://www.docker.com/' | url }}">Docker</a>. The StyleGAN and GPT-2 run in their respective Docker containers. First, I used the standard Tensorflow and Transformers images on Docker Hub, but ended up multistage building my own images because of the smaller resulting image size.\
 \
-At first, all the containers used the same binded local volume. Then the neural generated content would be saved in the shared folder and picked up by the main app. It worked well, but smelled too much like the 1990-s. So now the Docker containers communicate using the <a href="{{ 'https://redislabs.com/redis-best-practices/communication-patterns/pub-sub/' | url }}">Redis Pub/Sub</a> (Publisher/Subsriber paradigm). It is not only modern, fast and pretty but also flexible so the app can be easily extended with more profound communication logic between the bot and neural networks. The Redis server also runs in its own Docker image.\
+At first, all the containers used the same local bind mount. Then the neural generated content would be saved in the shared folder and picked up by the main app. It worked well, but smelled too much like the 1990-s. So now the Docker containers communicate using the <a href="{{ 'https://redislabs.com/redis-best-practices/communication-patterns/pub-sub/' | url }}">Redis Pub/Sub</a> (Publisher/Subsriber paradigm). It is not only modern, fast and pretty but also flexible so the app can be easily extended with more profound communication logic between the bot and neural networks. The Redis server also runs in its own Docker image.\
 \
 The repo for the whole stuff is available <a href="{{ 'https://github.com/guitargz/aidabot' | url }}">here</a> so feel free to have fun with it!
 
