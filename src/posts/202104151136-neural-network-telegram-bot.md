@@ -37,7 +37,7 @@ I think the quality of training has suffered due to a lot of different image typ
 The standard <a href="{{ 'https://github.com/NVlabs/stylegan' | url }}">StyleGAN</a>  would not support running on CPU even in the generator mode where it does not need too much PC beef. So I found this little <a href="{{ 'https://github.com/huaji0353/styleGAN_CPU' | url }}">patch</a> which allowed running the generator on a small machine without a GPU. 
 <br /> <br />
 
-# GPT-2
+## GPT-2
 I was going to use the biggest available GPT-2 XL (with 1.5 billion parameters) from <a href="{{ 'https://huggingface.co/transformers/' | url }}">Huggingface</a>. However, when I made my first tests on the smallest GPT-2 with 134 million parameters I immediately liked the quality of the generated texts. I even ended up not finetuning the pretrained model further (however, I might explore this way in the future).\
 \
 After all, I wanted to match the average beauty blogger's post intelligence level, so no overkill was needed here. Slightly chaotic babble of the smallest GPT-2 suited the goal just fine.\
@@ -53,8 +53,8 @@ gpt2-xl |	1.5 B | 6.43 GB
 
 <br />
 
-# Under the hood
-The bot is written in Python using the amazing <a href="{{ 'https://github.com/aiogram/aiogram' | url }}">aiogram</a> framework. It provides asychronous processing and is very fast. The bot (narcissistically enough) does not currently listen to the user input and only posts the neural content to its Telegram channel. \
+## Under the hood
+The bot is written in Python using the amazing <a href="{{ 'https://github.com/aiogram/aiogram' | url }}">aiogram</a> framework. It provides asynchronous processing and is very fast. The bot (narcissistically enough) does not currently listen to the user input and only posts the neural content to its Telegram channel. \
 \
 The main bot application has been containerized with <a href="{{ 'https://www.docker.com/' | url }}">Docker</a>. The StyleGAN and GPT-2 run in their respective Docker containers. First, I used the standard Tensorflow and Transformers images on Docker Hub, but ended up multistage building my own images because of the smaller resulting image size.\
 \
