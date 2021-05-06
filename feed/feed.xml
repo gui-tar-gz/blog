@@ -21,9 +21,9 @@
 &lt;br /&gt;&lt;br /&gt;
 &lt;a href=&quot;https://www.youtube.com/watch?v=xl2Xx5YOKcI&quot;&gt;Here&lt;/a&gt; is a good example of a basic penetration testing by John Hammond.&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/watch?v=xl2Xx5YOKcI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;
-&lt;/iframe&gt;
-</content>
+&lt;div class=&quot;video-wrap&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/xl2Xx5YOKcI&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;</content>
 	</entry>
 	
 	<entry>
