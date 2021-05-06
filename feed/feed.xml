@@ -18,8 +18,11 @@
 		<updated>2021-05-05T00:00:00Z</updated>
 		<id>https://guitargz.github.io/posts/202105051646-tryhackme/</id>
 		<content type="html">&lt;p&gt;Having fun with &lt;a href=&quot;https://tryhackme.com/&quot;&gt;TryHackMe&lt;/a&gt;. The idea behind is great and simple: there are lots of rooms dedicated to specific hacking topics. In the rooms you can deploy a virtual machine on which you can practice.&lt;br /&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;a href=&quot;https://www.youtube.com/watch?v=xl2Xx5YOKcI&quot;&gt;Here&lt;/a&gt; is a good example of a basic penetration testing by John Hammond.&lt;/p&gt;
+&lt;br /&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=xl2Xx5YOKcI&quot;&gt;Here&lt;/a&gt; is a good example of a basic penetration testing by John Hammond.&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/watch?v=xl2Xx5YOKcI&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;
+&lt;/iframe&gt;
 </content>
 	</entry>
 	
