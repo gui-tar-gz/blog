@@ -5,12 +5,23 @@
 	
 	<link href="https://guitargz.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://guitargz.github.io/"/>
-	<updated>2021-04-19T00:00:00Z</updated>
+	<updated>2021-05-05T00:00:00Z</updated>
 	<id>https://guitargz.github.io/</id>
 	<author>
 		<name>guitargz</name>
 		<email>alexguitargz@gmail.com</email>
 	</author>
+	
+	<entry>
+		<title>TryHackMe</title>
+		<link href="https://guitargz.github.io/posts/202105051646-tryhackme/"/>
+		<updated>2021-05-05T00:00:00Z</updated>
+		<id>https://guitargz.github.io/posts/202105051646-tryhackme/</id>
+		<content type="html">&lt;p&gt;Having fun with &lt;a href=&quot;https://tryhackme.com/&quot;&gt;TryHackMe&lt;/a&gt;. The idea behind is great and simple: there are lots of rooms dedicated to specific hacking topics. In the rooms you can deploy a virtual machine on which you can practice.&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=xl2Xx5YOKcI&quot;&gt;Here&lt;/a&gt; is a good example of a basic penetration testing by John Hammond.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Neural Network Telegram Bot</title>

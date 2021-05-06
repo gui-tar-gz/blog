@@ -10,6 +10,12 @@
     "url": "https://guitargz.github.io/about-me/"
   },
   "items": [{
+      "id": "https://guitargz.github.io/posts/202105051646-tryhackme/",
+      "url": "https://guitargz.github.io/posts/202105051646-tryhackme/",
+      "title": "TryHackMe",
+      "content_html": "<p>Having fun with <a href=\"https://tryhackme.com/\">TryHackMe</a>. The idea behind is great and simple: there are lots of rooms dedicated to specific hacking topics. In the rooms you can deploy a virtual machine on which you can practice.<br>\n<br /><br /><br>\n<a href=\"https://www.youtube.com/watch?v=xl2Xx5YOKcI\">Here</a> is a good example of a basic penetration testing by John Hammond.</p>\n",
+      "date_published": "2021-05-05T00:00:00Z"
+    },{
       "id": "https://guitargz.github.io/posts/202104151136-neural-network-telegram-bot/",
       "url": "https://guitargz.github.io/posts/202104151136-neural-network-telegram-bot/",
       "title": "Neural Network Telegram Bot",
