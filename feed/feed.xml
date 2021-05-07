@@ -5,7 +5,7 @@
 	
 	<link href="https://guitargz.github.io/feed/feed.xml" rel="self"/>
 	<link href="https://guitargz.github.io/"/>
-	<updated>2021-05-05T00:00:00Z</updated>
+	<updated>2021-05-07T00:00:00Z</updated>
 	<id>https://guitargz.github.io/</id>
 	<author>
 		<name>guitargz</name>
@@ -15,7 +15,7 @@
 	<entry>
 		<title>GUI Linux apps in WSL2</title>
 		<link href="https://guitargz.github.io/posts/202105071657-wsl2-gui/"/>
-		<updated>2021-05-05T00:00:00Z</updated>
+		<updated>2021-05-07T00:00:00Z</updated>
 		<id>https://guitargz.github.io/posts/202105071657-wsl2-gui/</id>
 		<content type="html">&lt;p&gt;In Windows 10 Insiders Preview build 21364 it is now &lt;a href=&quot;https://devblogs.microsoft.com/commandline/the-initial-preview-of-gui-app-support-is-now-available-for-the-windows-subsystem-for-linux-2/&quot;&gt;possible&lt;/a&gt; to run Linux GUI apps in WSL2.&lt;br /&gt;
 Switched to the Dev channel in order to try. So far so good! Windows still runs fast and stable in my applications. The Linux apps (I&#39;ve used Firefox and Burp Suite) also run fine.&lt;br /&gt;
