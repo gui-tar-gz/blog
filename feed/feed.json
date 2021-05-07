@@ -10,6 +10,12 @@
     "url": "https://guitargz.github.io/about-me/"
   },
   "items": [{
+      "id": "https://guitargz.github.io/posts/202105071657-wsl2-gui/",
+      "url": "https://guitargz.github.io/posts/202105071657-wsl2-gui/",
+      "title": "GUI Linux apps in WSL2",
+      "content_html": "<p>In Windows 10 Insiders Preview build 21364 it is now <a href=\"https://devblogs.microsoft.com/commandline/the-initial-preview-of-gui-app-support-is-now-available-for-the-windows-subsystem-for-linux-2/\">possible</a> to run Linux GUI apps in WSL2.<br>\nSwitched to the Dev channel in order to try. So far so good! Windows still runs fast and stable in my applications. The Linux apps (I've used Firefox and Burp Suite) also run fine.<br>\n<br /><br>\nThe issues I've noticed so far (hope it is fixed soon):</p>\n<ul>\n<li>Sometimes copy/paste stops working from Windows to Linux. The reversed direction works OK.</li>\n<li>The touchpad of my Dell XPS 9370 is not so pleasant to use in the Linux apps. The movement is not so smooth and the reaction is not that precise.<br>\n<br /><br>\n<img src=\"https://i.imgur.com/nQ2juqf.png\" alt=\"Firefox in Windows and Linux side-by-side\" title=\"Firefox in Windows and Linux side-by-side\"></li>\n</ul>\n",
+      "date_published": "2021-05-05T00:00:00Z"
+    },{
       "id": "https://guitargz.github.io/posts/202105051646-tryhackme/",
       "url": "https://guitargz.github.io/posts/202105051646-tryhackme/",
       "title": "TryHackMe",

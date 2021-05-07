@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TryHackMe</title>
-    <meta name="description" content="TryHackMe">
+    <title>GUI Linux apps in WSL2</title>
+    <meta name="description" content="GUI Linux apps in WSL2">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
@@ -48,22 +48,26 @@
 
       <div class="post">
 
-  <h1 class="post-title">TryHackMe</h1>
+  <h1 class="post-title">GUI Linux apps in WSL2</h1>
   <div class="post-line"></div>
 
   <div class="post-info">
-  <time datetime="2021-05-05">05 May 2021</time><a href="/tags/hacking/" class="tags-post">hacking</a>
+  <time datetime="2021-05-05">05 May 2021</time><a href="/tags/linux/" class="tags-post">linux</a><a href="/tags/windows/" class="tags-post">windows</a>
   </div>
 
-<p>Having fun with <a href="https://tryhackme.com/">TryHackMe</a>. The idea behind is great and simple: there are lots of rooms dedicated to specific hacking topics. In the rooms you can deploy a virtual machine on which you can practice.<br>
+<p>In Windows 10 Insiders Preview build 21364 it is now <a href="https://devblogs.microsoft.com/commandline/the-initial-preview-of-gui-app-support-is-now-available-for-the-windows-subsystem-for-linux-2/">possible</a> to run Linux GUI apps in WSL2.<br>
+Switched to the Dev channel in order to try. So far so good! Windows still runs fast and stable in my applications. The Linux apps (I've used Firefox and Burp Suite) also run fine.<br>
 <br /><br>
-<a href="https://www.youtube.com/watch?v=xl2Xx5YOKcI">Here</a> is a good example of a basic penetration testing by John Hammond.<br>
-<br /></p>
-<div class="video-wrap">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xl2Xx5YOKcI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+The issues I've noticed so far (hope it is fixed soon):</p>
+<ul>
+<li>Sometimes copy/paste stops working from Windows to Linux. The reversed direction works OK.</li>
+<li>The touchpad of my Dell XPS 9370 is not so pleasant to use in the Linux apps. The movement is not so smooth and the reaction is not that precise.<br>
+<br /><br>
+<img src="https://i.imgur.com/nQ2juqf.png" alt="Firefox in Windows and Linux side-by-side" title="Firefox in Windows and Linux side-by-side"></li>
+</ul>
+
 <hr>
-<ul><li>Next: <a href="/posts/202105071657-wsl2-gui/">GUI Linux apps in WSL2</a></li><li>Previous: <a href="/posts/202104151136-neural-network-telegram-bot/">Neural Network Telegram Bot</a></li>
+<ul><li>Previous: <a href="/posts/202105051646-tryhackme/">TryHackMe</a></li>
 </ul>
 
 </div>
@@ -76,6 +80,6 @@
       </span>
     </footer>
 
-    <!-- Current page: /posts/202105051646-tryhackme/ -->
+    <!-- Current page: /posts/202105071657-wsl2-gui/ -->
   </body>
 </html>
